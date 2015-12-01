@@ -1,0 +1,18 @@
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Mac crap
+.DS_Store
+
+# Algunos archivos temporales en Linux
+*~
+.directory
+
+# Sass/Compass
+deb
+*.css.map
+*.zip
+*.rar
