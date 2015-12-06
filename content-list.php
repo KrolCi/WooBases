@@ -34,7 +34,7 @@
                 <?php the_excerpt();?>
             </span>
         </div>
-        <div class="items redes">
+        <div class="post-shared">
             <a href="http://facebook.com/sharer.php?u=<?php themeb_links() ?>" class="fb popup fa fa-facebook" target="_blank"></a>
             <a href="http://twitter.com/intent/tweet?text=<?php themeb_links('Twitter') ?>" class="tw popup fa fa-twitter" target="_blank"></a>
             <a href="https://plus.google.com/share?url=<?php themeb_links() ?>" class="gp popup fa fa-google-plus" target="_blank"></a>

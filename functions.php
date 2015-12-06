@@ -28,7 +28,7 @@
 
     // --------------- Menu ---------*
     function themeb_menu_pr() {
-        register_nav_menu('main-menu',__( 'Menu Principal' ));
+        register_nav_menu('main-menu', 'Menu Principal' );
     }
     add_action( 'init', 'themeb_menu_pr' );
 

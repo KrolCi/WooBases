@@ -22,6 +22,8 @@
                     get_template_part('content-single');
                 elseif( is_page() ):
                     get_template_part('content-page');
+                /*elseif(is_category() || is_search() || is_archive()):
+                    get_template_part('content-list');*/
                 else:
                     get_template_part('content-list');
                 endif;

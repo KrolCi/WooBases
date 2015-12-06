@@ -11,7 +11,7 @@ a{
     }
 }
 div, main, section, footer{
-    @include fonts(1,bold,15px);
+    @include fonts(1,normal,15px);
 }
 #main-header, #main-content, #main-footer{
     width:90%;

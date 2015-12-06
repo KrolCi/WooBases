@@ -6,7 +6,14 @@
 
 
 /* ---------------------- Cuerpo / body ----------------------------- */
-
+main{
+    @import "content/body";
+    @include display(flex);
+    @include flex-direction(row);
+    @include align-items(flex-start);
+    @include justify-content(space-between);
+    
+}
 
 /* ---------------------- Pies / footer ----------------------------- */
 

@@ -1,0 +1,30 @@
+#post{
+    
+}
+#sidebar{
+    
+}
+
+// extras
+#posts #post .post-content{
+    .post-dates{
+        .items{
+            display: inline-block;
+
+            div{
+                display: inline-block;
+            }
+        }
+    }
+    .post-shared{
+        a{
+            text-align: center;
+            width: 35px;
+            height: 35px;
+            font-size: 25px;
+            background: black;
+            color: white;
+            padding: 10px 5px 0;
+        }
+    }
+}
