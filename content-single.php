@@ -39,5 +39,5 @@
             <a href="https://plus.google.com/share?url=<?php themeb_links() ?>" class="gp popup fa fa-google-plus" target="_blank"></a>
         </div>
     </div>
-    <?php the_comment(); ?>
 </article>
+<?php comments_template(); ?> 
