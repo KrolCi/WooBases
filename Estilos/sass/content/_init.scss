@@ -10,20 +10,36 @@ a{
         text-decoration:underline;
     }
 }
+/* fuente defecto en las etiquetas */
 div, main, section, footer{
     @include fonts(1,normal,15px);
 }
+
+/* valores predeterminados del main */
 #main-header, #main-content, #main-footer{
     width:90%;
     max-width: 1200px;
     margin: 0 auto;
     @include display(flex);
 }
+/* botones pre-configurados */
 .boton{
     padding: 5px;
     border-radius:5px;
 
     &.primario{
         background-color: $color-principal;
+    }
+}
+/* botoenes de compartir */
+.bottom-shared{
+    a{
+        text-align: center;
+        width: 35px;
+        height: 35px;
+        font-size: 25px;
+        background: black;
+        color: white;
+        padding: 10px 5px 0;
     }
 }

@@ -1,7 +1,7 @@
 <?php
     get_header();
     ?>
-        <main>
+        <main id="main-content">
             <?php
                 get_template_part('content');
                 get_sidebar();

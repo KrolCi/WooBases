@@ -13,9 +13,9 @@
     <?php wp_head(); ?>
 </head>
 <body>
-<header id="main-head">
+<header id="main-header">
     <div id="wrap">
-        <div id="head-info">
+        <div class="head-info">
             <?php
                 if ( is_front_page() || is_home() ) :
                     ?><h1 class="webname" rel="home"><a href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a></h1><?php
@@ -25,9 +25,8 @@
                 ?>
             <span><?php bloginfo('description'); ?></span>
         </div><!-- end #head-info -->
-        <nav class="colapsa">
+        <nav class="head-menu colapsa">
             <div class="nav-show fa fa-bars"></div><?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
         </nav>
     </div><!-- end #wrap -->
 </header>
-    <?php //themeb_dir("hola.css"); ?>

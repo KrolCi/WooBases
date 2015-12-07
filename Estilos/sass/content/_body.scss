@@ -1,8 +1,17 @@
-#post{
-    
+#posts,#sidebar{
+    @include box-sizing(border-box);
+}
+#posts{
+    width: 70%;
+    #post{
+        .thumbnail-single img{
+            width: 100%;
+            height: auto;
+        }
+    }
 }
 #sidebar{
-    
+    width:30%;
 }
 
 // extras
@@ -14,17 +23,6 @@
             div{
                 display: inline-block;
             }
-        }
-    }
-    .post-shared{
-        a{
-            text-align: center;
-            width: 35px;
-            height: 35px;
-            font-size: 25px;
-            background: black;
-            color: white;
-            padding: 10px 5px 0;
         }
     }
 }
