@@ -7,7 +7,7 @@
 get_header();
 ?>
 <main>
-    <div id="wrap">
+    <div class="wrap">
         <section <?php torotur_class_ct('full')?>>
             <?php
             if ( have_posts() ) :

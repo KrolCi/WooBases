@@ -14,7 +14,7 @@
 </head>
 <body>
 <header id="main-header">
-    <div id="wrap">
+    <div class="wrap">
         <div class="head-info">
             <?php
                 if ( is_front_page() || is_home() ) :

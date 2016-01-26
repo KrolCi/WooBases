@@ -1,4 +1,4 @@
-<sectio id="posts">
+<section id="posts">
     <!-- Header section -->
     <?php if( is_search() ) : ?>
         <header class="title-section">
@@ -32,4 +32,4 @@
             echo wpautop( 'No hemos podido conseguir nada' );
         endif;
     ?>
-</sectio>
+</section>
